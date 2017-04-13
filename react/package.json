@@ -9,6 +9,7 @@
   "author": "James Mann <james.mann@bcs.org> (https://github.com/jamesemann)",
   "license": "ISC",
   "dependencies": {
+    "office-ui-fabric-react": "^2.16.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

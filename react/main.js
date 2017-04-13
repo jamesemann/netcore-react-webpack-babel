@@ -1,0 +1,1 @@
+﻿import Hello from './wwwroot/test.jsx';

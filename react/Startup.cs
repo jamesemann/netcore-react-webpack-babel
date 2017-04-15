@@ -40,6 +40,8 @@ namespace react
 
             app.UseMvc();
 
+            app.UseDefaultFiles();
+
             app.UseStaticFiles();
         }
     }

@@ -18,7 +18,6 @@ import { Link } from 'office-ui-fabric-react/lib/Link';
 export class DataBindingTest extends React.Component {
     constructor(props) {
         super(props);
-        
         this.state = { client: props.client, loading: false, hamburgerShowing: false };
 
         //this.handleClientNameChange = this.handleClientNameChange.bind(this);
@@ -141,7 +140,7 @@ export class DataBindingTest extends React.Component {
 var CLIENT = { name: 'Contoso Ltd', contact: 'Joe Bloggs' };
     
 
-ReactDOM.render(
-    <DataBindingTest client={CLIENT} />,
-    document.getElementById('databindingtest')
-);
+//ReactDOM.render(
+//    <DataBindingTest client={CLIENT} />,
+//    document.getElementById('databindingtest')
+//);

@@ -1,7 +1,6 @@
 ﻿var path = require('path');
 var webpack = require('webpack');
 
-console.log(path.join(__dirname, '/wwwroot/'));
 module.exports = {
   entry: './main.js',
   output: {
@@ -12,7 +11,7 @@ module.exports = {
   },
   devServer: {
       historyApiFallback: true,
-      contentBase: path.join(__dirname, '/wwwroot/'),
+      contentBase: path.join(__dirname, '/src/'),
       watchOptions: {
           aggregateTimeout: 300,
           poll: 1000

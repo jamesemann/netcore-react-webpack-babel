@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="src\test.jsx" />
+    <Content Include="src\common\databindingtest.jsx" />
+    <Content Include="src\common\test.jsx" />
     <Content Include="wwwroot\index.html" />
     <Content Include="wwwroot\databindingtest.jsx">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>

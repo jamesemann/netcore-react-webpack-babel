@@ -7,6 +7,9 @@
   <ItemGroup>
     <Content Include="src\test.jsx" />
     <Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\databindingtest.jsx">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />

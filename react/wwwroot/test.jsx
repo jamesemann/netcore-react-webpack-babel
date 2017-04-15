@@ -13,7 +13,7 @@ export class Sample extends React.Component {
 
     render() {
         return (
-            <div>
+            <form action='test' method='post'>
                 <Toggle
                     defaultChecked={true}
                     label='A toggle'
@@ -24,17 +24,21 @@ export class Sample extends React.Component {
                     <Label disabled={true}>I'm a disabled Label</Label>
                     <Label required={true}>I'm a required Label</Label>
                 </div>
-                <DatePicker></DatePicker>
+                <DatePicker
+                    isRequired={true} 
+                ></DatePicker>
                 <TextField
+                    //required pattern="https?://.+"
+                    //required
                     value=''
                     placeholder='This field always has an error.'
                     onGetErrorMessage={this.getErrorMessage}
                     validateOnLoad={false}
                 />
                 <span className="ms-font-su ms-fontColor-themePrimary">Big blue text</span>
-                <Button>I am a button.</Button></div>
+                <Button>Click me</Button></form>
         );
     }
 }
 
-ReactDOM.render(<Sample />, document.getElementById('root'));
+//ReactDOM.render(<Sample />, document.getElementById('sample'));
